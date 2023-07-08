@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1F0"
+    tools:context=".Admin.admin_homeFragment">
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="163dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/btn_style" />
+
+    <TextView
+        android:id="@+id/usersols"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="214dp"
+        android:text="20"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:src="@drawable/admin" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="163dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="155dp"
+        android:background="@drawable/btn_style" />
+
+    <TextView
+        android:id="@+id/usersubs"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="214dp"
+        android:text="25"
+        android:textAlignment="center"
+        android:textColor="#FBF6F6"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="218dp"
+        android:layout_marginBottom="177dp"
+        android:text="Issue Raised"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="175dp"
+        android:text="Issue Resolved"
+        android:textColor="#EFE8E8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

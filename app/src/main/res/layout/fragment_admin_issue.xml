@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="720dp">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/appNameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="All issues"
+        android:background="@color/theme2"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingTop="9dp"
+        android:paddingStart="10dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical" />
+
+</FrameLayout>

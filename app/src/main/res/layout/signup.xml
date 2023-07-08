@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.signup">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/green_gradient"
+        tools:context=".User.signup">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="625dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="74dp"
+            android:background="@drawable/white_edge"
+            android:foregroundTint="#EDEAEA" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="373dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="629dp"
+            android:background="#FFFFFF"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="@color/theme2"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="527dp"
+            android:background="@drawable/custom_btn"
+            android:drawableLeft="@drawable/baseline_person"
+            android:ems="10"
+            android:hint="  Add User name"
+            android:inputType="textPersonName"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="394dp"
+            android:background="@drawable/custom_btn"
+            android:drawableLeft="@drawable/baseline_phone"
+            android:ems="10"
+            android:hint="  Add Mobile Number"
+            android:inputType="phone"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="326dp"
+            android:background="@drawable/custom_btn"
+            android:drawableLeft="@drawable/baseline_location"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:hint="  Add Place"
+            android:inputType="text"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="259dp"
+            android:background="@drawable/custom_btn"
+            android:drawableLeft="@drawable/baseline_date"
+            android:ems="10"
+            android:hint="  Add Date of Birth"
+            android:inputType="date"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="188dp"
+            android:background="@drawable/custom_btn"
+            android:drawableLeft="@drawable/baseline_lock"
+            android:ems="10"
+            android:hint="  Set Password"
+            android:inputType="textPassword"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="463dp"
+            android:background="@drawable/custom_btn"
+            android:drawableLeft="@drawable/baseline_email"
+            android:ems="10"
+            android:hint="  Add Email"
+            android:inputType="textEmailAddress"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="102dp"
+            android:background="@drawable/btn_style"
+            android:text="SUBMIT"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

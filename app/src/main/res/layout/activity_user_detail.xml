@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rtitles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Admin.DetailActivity">
+
+  <TextView
+      android:id="@+id/appNameContainer"
+      android:layout_width="match_parent"
+      android:layout_height="51dp"
+      android:background="@color/theme2"
+      android:paddingStart="10dp"
+      android:paddingTop="9dp"
+      android:text="Issue Details"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:id="@+id/rimages"
+      android:layout_width="wrap_content"
+      android:layout_height="210dp"
+      android:layout_gravity="center"
+      android:layout_marginStart="5dp"
+      android:layout_marginEnd="5dp"
+      android:padding="8dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/gallary" />
+
+  <TextView
+      android:id="@+id/rStatus3"
+      android:layout_width="396dp"
+      android:layout_height="29dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="10dp"
+      android:text=" Status"
+      android:textColor="@color/black"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.051"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="16dp" />
+
+  <TextView
+      android:id="@+id/rdepartments2"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:paddingStart="20dp"
+      android:paddingTop="10dp"
+      android:paddingEnd="20dp"
+      android:paddingBottom="2dp"
+      android:text="Department : fire"
+      android:textColor="@color/black"
+      android:textSize="18sp" />
+
+  <TextView
+      android:id="@+id/rdepartments"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:paddingStart="20dp"
+      android:paddingTop="10dp"
+      android:paddingEnd="20dp"
+      android:paddingBottom="2dp"
+      android:text="Department : fire"
+      android:textColor="@color/black"
+      android:textSize="18sp" />
+
+  <TextView
+      android:id="@+id/rdescriptions"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:paddingStart="20dp"
+      android:paddingTop="10dp"
+      android:paddingEnd="20dp"
+      android:paddingBottom="2dp"
+      android:text="Title     :"
+      android:textColor="@color/black"
+      android:textSize="18sp" />
+
+  <TextView
+      android:id="@+id/rlocations"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:paddingStart="20dp"
+      android:paddingTop="10dp"
+      android:paddingEnd="20dp"
+      android:paddingBottom="2dp"
+      android:text="Place     :"
+      android:textColor="@color/black"
+      android:textSize="18sp" />
+
+  <TextView
+      android:id="@+id/rdescriptions2"
+      android:layout_width="match_parent"
+      android:layout_height="158dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="10dp"
+      android:paddingStart="20dp"
+      android:paddingTop="20dp"
+      android:paddingEnd="20dp"
+      android:paddingBottom="2dp"
+      android:text="Description"
+      android:textColor="@color/black"
+      android:textSize="18sp" />
+
+
+  <TextView
+      android:id="@+id/textView22"
+      android:layout_width="match_parent"
+      android:layout_height="21dp"
+      android:text="." />
+
+
+</LinearLayout>

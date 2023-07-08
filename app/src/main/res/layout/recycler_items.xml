@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCards"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/rImages"
+            android:layout_width="111dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gallary" />
+
+        <TextView
+            android:id="@+id/rStatuss"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rLocations"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/rImages"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rLocations"
+            android:layout_width="203dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="73dp"
+            android:layout_toEndOf="@id/rImages"
+            android:text="Location:"
+            android:textAlignment="textStart"
+            android:textColor="#6C6A6A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rDescriptions"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@id/rImages"
+            android:text="Description"
+            android:textColor="@color/theme2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rDepartments"
+            android:layout_width="212dp"
+            android:layout_height="29dp"
+            android:layout_below="@id/rDescriptions"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@id/rImages"
+            android:maxLines="1"
+            android:text="Department"
+            android:textColor="#6C6A6A"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

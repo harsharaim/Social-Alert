@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SocialAlert</string>
+    <string name="submit">adding issues</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="api_key">9ba6ce5b1bc64fb7b244991f26513795</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
